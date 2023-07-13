@@ -1,9 +1,16 @@
 import Image from 'next/image'
-import styles from '@styles/home.module.scss';
+import styles from '@styles/Home.module.scss';
+
+import Navigation from '@components/Navigation';
 
 const Home = () => {
   return (
-    <>dasdas</>
+    <>
+      <Navigation />
+      <div style={{backgroundColor: 'green'}}>
+      dasdas
+      </div>
+    </>
   )
 }
 export default Home;
