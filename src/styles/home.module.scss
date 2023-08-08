@@ -1,0 +1,87 @@
+.main {
+    background: white;
+
+    p {
+        font-size: larger;
+        margin: 0 5rem;
+        text-indent: 15px;
+
+    }
+
+    .article1 {
+
+        h1,
+        h3,
+        p {
+            color: white;
+        }
+
+        h1,
+        h3 {
+            text-align: center;
+
+        }
+
+
+        // .heading {}
+        margin: 4.5rem 0;
+        padding: 5rem 0;
+        background: black;
+    }
+
+    .article2 {}
+
+    .article3 {
+        h2 {
+            text-align: center;
+        }
+
+        padding: 5rem 0;
+        background: #faa524;
+
+    }
+
+    .article4 {
+        h2 {
+            text-align: center;
+        }
+
+        div {
+            div {
+                @media portrait {
+                    width: 9
+                }
+
+                width: 33dvw;
+
+                p {
+                    text-align: center;
+
+                    &:first-child {
+                        color: #5fc8eb;
+                        font-weight: bold;
+                    }
+
+                    &:last-child {
+                        color: black;
+                    }
+                }
+            }
+
+            p {
+                text-align: center;
+                width: 75%;
+                &:first-child {
+                    color: #5fc8eb;
+                    font-weight: bold;
+                }
+
+                &:last-child {
+                    color: black;
+                }
+            }
+        }
+
+        margin: 4.5rem 0;
+    }
+}
