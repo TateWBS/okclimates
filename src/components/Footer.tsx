@@ -13,11 +13,11 @@ const Footer = () => {
             <div className={`${Style.links} d-flex justify-content-around`}>
                 <div>
                     <p>Our Email:</p>
-                    <a href='mailto:office@okclimates.com'>office@okclimates.com</a>
+                    <a href='mailto:Email@email.com'>Email@email.com</a>
                 </div>
                 <div>
                     <p>Our Phone:</p>
-                    <a href='tel:4055039833'>(405) 503-9833</a>
+                    <a href='tel:+1'>+1</a>
                 </div>
             </div>
         </footer>
